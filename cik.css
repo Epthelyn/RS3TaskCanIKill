@@ -160,3 +160,17 @@ body{
     text-decoration: line-through;
     color: rgb(156, 156, 156);
 }
+
+.creditbox{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: #CCC;
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+}
+
+.creditbox > a{
+    color: white !important;
+}
