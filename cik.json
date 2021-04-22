@@ -382,7 +382,11 @@
         "drops": [
             {"item": "Dragon platelegs", "rate": "1/256"},
             {"item": "Dragon plateskirt", "rate": "1/256"},
-            {"item": "Draconic visage", "rate": "1/512"}
+            {"item": "Draconic visage", "rate": "1/512"},
+            {"item": "Steadfast scale", "rate": "0", "taskRate": "1/768"},
+            {"item": "Glaiven wing-tip scale", "rate": "0", "taskRate": "1/768"},
+            {"item": "Ragefire gland", "rate": "0", "taskRate": "1/768"},
+            {"item": "Kethsi ring", "rate": "0", "taskRate": "1/1024"}
         ],
         "region": "Karamja",
         "note": "Draconic visage can be found in the relevant boss unique logs"
@@ -708,6 +712,96 @@
             {"item": "Wyrm heart", "rate": "1/12288", "taskRate": "1/6168"},
             {"item": "Wyrm scalp", "rate": "1/12288", "taskRate": "1/6168"}
         ],
-        "note": "All wilderness uniques below 1/2000, probably"
+        "note": "All wilderness uniques below 1/2000, probably",
+        "region": "Wilderness"
+    },
+    {
+        "name": "Force Muspah",
+        "drops": [
+            {"item": "Dragon ward", "rate": "1/128", "estimate": true}
+        ],
+        "note": "Killing specific muspah types is practically impossible due to how they spawn",
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Bladed Muspah",
+        "drops": [
+            {"item": "Dragon hasta", "rate": "1/128", "estimate": true}
+        ],
+        "note": "Killing specific muspah types is practically impossible due to how they spawn",
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Throwing Muspah",
+        "drops": [
+            {"item": "Dragon knife", "rate": "1/128", "estimate": true}
+        ],
+        "note": "Killing specific muspah types is practically impossible due to how they spawn",
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Blood Nihil",
+        "drops": [
+            {"item": "Vampyre fangs", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Ice Nihil",
+        "drops": [
+            {"item": "Icyene feather", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Shadow Nihil",
+        "drops": [
+            {"item": "Demon horn", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Smoke Nihil",
+        "drops": [
+            {"item": "Aviansie talons", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Prifddinas Elves",
+        "alias": ["Iorwerth guard","Iorwerth Scout","Cadarn Magus","Cadarn Ranger"],
+        "drops": [
+            {"item": "Attuned crystal weapon seeed", "rate": "1/2048"},
+            {"item": "Attuned crystal weapon seeed", "rate": "1/2048"}
+        ],
+        "note": "Drop rates for guards may be above 1/2000 threshold",
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Crystal Shapeshifters",
+        "drops": [
+            {"item": "Ancient elven wedding ring", "rate": "1/1024", "estimate": true}
+        ],
+        "note": "Drop rate is 'Very Rare' with no further information",
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Nightmare",
+        "drops": [
+            {"item": "Nightmare gauntlets", "rate": "1/10000", "taskRate": "1/2000"}
+        ],
+        "region": "Other Worlds"
+    },
+    {
+        "name": "Elite Rune Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/64", "estimate": true},
+            {"item": "Dragon plateskirt", "rate": "1/64", "estimate": true},
+            {"item": "Draconic visage", "rate": "1/512"},
+            {"item": "Kethsi ring", "rate": "1/512"},
+            {"item": "Kethsi outfill scroll", "rate": "1/200"}
+        ],
+        "region": "Other Worlds",
+        "note": "Draconic visage can be found in the relevant boss unique logs"
     }
 ]
