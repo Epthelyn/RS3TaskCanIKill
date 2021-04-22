@@ -28,8 +28,10 @@ const cik = function(){
         }
     });
     $('#monster_input').on('change', function(){
+        updateDisplay();
+    });
 
-
+    $('#taskregion').on('change', function(){
         updateDisplay();
     });
 
@@ -70,10 +72,24 @@ const cik = function(){
             let rates = sumRates(data[0].drops);
 
             if(rates.denom != 0 && rates.denom < 2000){
-                $('.outputSummary').removeClass('yes');
-                $('.outputSummary').addClass('no');
-                $('.outputSummary').removeClass('maybe');
-                $('.outputSummary').html(`No (1/${rates.denom})`);
+                if(data[0].region == $('#taskregion').val()){
+                    $('.outputSummary').addClass('yes');
+                    $('.outputSummary').removeClass('no');
+                    $('.outputSummary').removeClass('maybe');
+                    if(rates.denom == 0){
+                        $('.outputSummary').html(`Yes`);
+                    }
+                    else{
+                        $('.outputSummary').html(`Yes (1/${rates.denom})`);
+                    }
+                }
+                else{
+                    $('.outputSummary').removeClass('yes');
+                    $('.outputSummary').addClass('no');
+                    $('.outputSummary').removeClass('maybe');
+                    $('.outputSummary').html(`No (1/${rates.denom})`);
+                }
+
             }
             else{
                 $('.outputSummary').addClass('yes');
@@ -92,8 +108,8 @@ const cik = function(){
                 return `<div class="outputItemRow ${drop.collected?`collected`:``}" mIdx="${monsterData.indexOf(data[0])}" dIdx="${index}">${drop.item} - ${$('#slayertask').is(':checked')?(drop.taskRate || drop.rate):drop.rate}</div>`;
             }).join("");
             // console.log(dropsHTML);
-
-            let h =`<div class="outputItemRow"><u>Click a drop to mark it as collected</u></div>`;
+            let h = `<div class="outputItemRow" style="color: ${data[0].region == $('#taskregion').val()?'lime':'red'}">Region: ${data[0].region}</div>`
+            h += `<div class="outputItemRow"><u>Click a drop to mark it as collected</u></div>`;
             h += dropsHTML;
             if(data[0].note){
                 h += `<div class="outputItemRow"><br><i>${data[0].note}</i></div>`

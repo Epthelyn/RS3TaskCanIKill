@@ -5,7 +5,7 @@
             {"item": "Goblin Mail", "rate": "9/128"},
             {"item": "Goblin Book", "rate": "1/128"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Chicken",
@@ -14,7 +14,7 @@
             {"item": "Cornucopia", "rate": "1/128", "estimate": true},
             {"item": "Off-hand rubber chicken", "rate": "1/1024", "estimate": true}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Mogre",
@@ -23,49 +23,49 @@
             {"item": "Mudskipper hat", "rate": "1/64", "estimate": true},
             {"item": "Flippers", "rate": "1/128", "estimate": true}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Skeletal Wyvern",
         "drops": [
             {"item": "Granite Legs", "rate": "1/512"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Grotworm",
         "drops": [
             {"item": "Royal cape", "rate": "1/512"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Minotaur",
         "drops": [
             {"item": "Right skull half", "rate": "18/128"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Ankou",
         "drops": [
             {"item": "Left skull half", "rate": "3/128"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Catablepon",
         "drops": [
             {"item": "Top of sceptre", "rate": "4/128"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Flesh Crawler",
         "drops": [
             {"item": "Bottom of Sceptre", "rate": "10/128", "estimate": true}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Shade",
@@ -73,14 +73,14 @@
             {"item": "Shade robe (top)", "rate": "8/128"},
             {"item": "Shade robe (bottom)", "rate": "8/128"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Cyclops",
         "drops": [
             {"item": "Defender", "rate": "1/50"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Wyvern",
@@ -88,7 +88,7 @@
             {"item": "Raptor key part 1", "rate": "1/256"},
             {"item": "Wyvern crossbow", "rate": "1/10000", "taskRate": "1/2000"}
         ],
-        "region": "Misthalin & Asgarnia"
+        "region": "Asgarnia and Misthalin"
     },
     {
         "name": "Bloodveld",
