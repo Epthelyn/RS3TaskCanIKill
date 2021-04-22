@@ -1,0 +1,713 @@
+[
+    {
+        "name": "Goblin",
+        "drops": [
+            {"item": "Goblin Mail", "rate": "9/128"},
+            {"item": "Goblin Book", "rate": "1/128"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Chicken",
+        "alias": ["Bird"],
+        "drops": [
+            {"item": "Cornucopia", "rate": "1/128", "estimate": true},
+            {"item": "Off-hand rubber chicken", "rate": "1/1024", "estimate": true}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Mogre",
+        "drops": [
+            {"item": "Crunchy claw token", "rate": "1/64", "estimate": true},
+            {"item": "Mudskipper hat", "rate": "1/64", "estimate": true},
+            {"item": "Flippers", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Skeletal Wyvern",
+        "drops": [
+            {"item": "Granite Legs", "rate": "1/512"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Grotworm",
+        "drops": [
+            {"item": "Royal cape", "rate": "1/512"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Minotaur",
+        "drops": [
+            {"item": "Right skull half", "rate": "18/128"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Ankou",
+        "drops": [
+            {"item": "Left skull half", "rate": "3/128"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Catablepon",
+        "drops": [
+            {"item": "Top of sceptre", "rate": "4/128"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Flesh Crawler",
+        "drops": [
+            {"item": "Bottom of Sceptre", "rate": "10/128", "estimate": true}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Shade",
+        "drops": [
+            {"item": "Shade robe (top)", "rate": "8/128"},
+            {"item": "Shade robe (bottom)", "rate": "8/128"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Cyclops",
+        "drops": [
+            {"item": "Defender", "rate": "1/50"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Wyvern",
+        "drops": [
+            {"item": "Raptor key part 1", "rate": "1/256"},
+            {"item": "Wyvern crossbow", "rate": "1/10000", "taskRate": "1/2000"}
+        ],
+        "region": "Misthalin & Asgarnia"
+    },
+    {
+        "name": "Bloodveld",
+        "drops": [
+            {"item": "Black boots", "rate": "12/128"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Infernal Mage",
+        "drops": [
+            {"item": "Dark mystic hat", "rate": "1/512"},
+            {"item": "Dark mystic boots", "rate": "1/512"},
+            {"item": "Lava battlestaff", "rate": "1/1024"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Gargoyle",
+        "drops": [
+            {"item": "Dark mystic robe top", "rate": "1/512"},
+            {"item": "Granite Maul", "rate": "1/512"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Aberrant Spectre",
+        "drops": [
+            {"item": "Dark mystic robe bottom", "rate": "1/512"},
+            {"item": "Lava battlestaff", "rate": "2/128"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Banshee",
+        "drops": [
+            {"item": "Dark mystic gloves", "rate": "1/512"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Terror Dog",
+        "drops": [
+            {"item": "Granite helm", "rate": "2/512"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Abyssal Demon",
+        "drops": [
+            {"item": "Abyssal whip", "rate": "1/1024"},
+            {"item": "Abyssal wand", "rate": "0", "taskRate": "1/6104"},
+            {"item": "Abyssal orb", "rate": "0", "taskRate": "1/6104"},
+            {"item": "Abyssal head", "rate": "3/16384"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Crawling hand",
+        "drops": [
+            {"item": "Crawling hand (item)", "rate": "1/512"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Ganodermic runt",
+        "drops": [
+            {"item": "Ganodermic boots", "rate": "1/128", "estimate": true},
+            {"item": "Ganodermic gloves", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Morytania"
+    },
+    {
+        "name": "Ganodermic beast",
+        "drops": [
+            {"item": "Ganodermic boots", "rate": "1/64", "estimate": true},
+            {"item": "Ganodermic gloves", "rate": "1/64", "estimate": true},
+            {"item": "Polypore stick", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Morytania"
+    },
+    {
+        "name": "Grifolopine",
+        "drops": [
+            {"item": "Grifolic shield", "rate": "1/64", "estimate": true},
+            {"item": "Grifolic wand", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Morytania"
+    },
+    {
+        "name": "Grifoloroo",
+        "drops": [
+            {"item": "Grifolic orb", "rate": "1/64", "estimate": true},
+            {"item": "Grifolic gloves", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Morytania"
+    },
+    {
+        "name": "Celestial Dragon",
+        "drops": [
+            {"item": "Celestial handwraps", "rate": "0", "taskRate": "1/2000", "estimate": true},
+            {"item": "Dragon Rider helm", "rate": "1/5120"},
+            {"item": "Dragon Rider body", "rate": "1/5120"},
+            {"item": "Dragon Rider chaps", "rate": "1/5120"},
+            {"item": "Dragon Rider cape", "rate": "1/5120"},
+            {"item": "Dragon Rider kit", "rate": "1/5120"},
+            {"item": "Draconic visage", "rate": "1/512"},
+            {"item": "Congealed blood", "rate": "7/128"}
+        ],
+        "region": "Morytania",
+        "note": "Draconic visage can be found in the relevant boss unique logs.<br>Most Morytania monsters drop congealed blood with some high chance"
+    },
+    {
+        "name": "Kalgerion Demon",
+        "drops": [
+            {"item": "Adrenaline urn", "rate": "1/1024"},
+            {"item": "Demon slayer circlet", "rate": "1/256"},
+            {"item": "Demon slayer torso", "rate": "1/256"},
+            {"item": "Demon slayer skirt", "rate": "1/256"},
+            {"item": "Demon slayer boots", "rate": "1/256"},
+            {"item": "Demon slayer gloves", "rate": "1/256"},
+            {"item": "Demon slayer crossbow", "rate": "1/256"},
+            {"item": "Off-hand demon slayer crossbow", "rate": "1/256"},
+            {"item": "Kal'gerion battle commendation", "rate": "1/512"}
+        ],
+        "region": "Daemonheim"
+    },
+    {
+        "name": "Seeker",
+        "drops": [
+            {"item": "Seeker's charm", "rate": "1/64", "estimate": true}
+        ],
+        "region": "Daemonheim"
+    },
+    {
+        "name": "Soulgazer",
+        "drops": [
+            {"item": "Hexhunter bow", "rate": "1/1500000"},
+            {"item": "Soulgazer's charm", "rate": "1/750000"}
+        ],
+        "note": "Elite drop rate is 1000 times better",
+        "region": "Daemonheim"
+    },
+    {
+        "name": "Edimmu",
+        "drops": [
+            {"item": "Blood necklace shard", "rate": "1/128"},
+            {"item": "Edimmu (item)", "rate": "1/512"}
+        ],
+        "region": "Daemonheim"
+    },
+    {
+        "name": "Jungle Strykewyrm",
+        "drops": [
+            {"item": "Hexcrest", "rate": "1/512"}
+        ],
+        "region": "Feldip Hills"
+    },
+    {
+        "name": "Order of Ascension Creatures",
+        "alias": ["Scutarius","Capsarius","Gladius","Rorarius"],
+        "drops": [
+            {"item": "Ascension Keystone Primus", "rate": "1/300"},
+            {"item": "Ascension Keystone Secundus", "rate": "1/300"},
+            {"item": "Ascension Keystone Tertius", "rate": "1/300"},
+            {"item": "Ascension Keystone Quartus", "rate": "1/300"},
+            {"item": "Ascension Keystone Quintus", "rate": "1/300"},
+            {"item": "Ascension Keystone Sextus", "rate": "1/300"},
+            {"item": "Ascension grips", "rate": "0", "taskRate": "1/2026"}
+        ],
+        "region": "Feldip Hills"
+    },
+    {
+        "name": "Wall Beast",
+        "drops": [
+            {"item": "Light mystic hat", "rate": "1/512"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Basilisk",
+        "drops": [
+            {"item": "Light mystic hat", "rate": "1/512"},
+            {"item": "Basilisk boots", "rate": "1/512"},
+            {"item": "Basilisk head", "rate": "1/2000", "swMaskRate": "1/1000"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Kurask",
+        "drops": [
+            {"item": "Light mystic robe top", "rate": "1/512"},
+            {"item": "Kurask boots", "rate": "2/128"},
+            {"item": "Leaf-bladed sword", "rate": "1/128"},
+            {"item": "Off-hand leaf-bladed sword", "rate": "1/128"},
+            {"item": "Kurask head", "rate": "1/3000", "swMaskRate": "1/1500"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Turoth",
+        "drops": [
+            {"item": "Light mystic robe bottom", "rate": "1/512"},
+            {"item": "Turoth boots", "rate": "1/512"},
+            {"item": "Leaf-bladed sword", "rate": "1/2048"},
+            {"item": "Off-hand leaf-bladed sword", "rate": "1/2048"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Lizard",
+        "alias": ["Desert Lizard", "Small Lizard"],
+        "drops": [
+            {"item": "Light mystic gloves", "rate": "1/512"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Rock Slug",
+        "drops": [
+            {"item": "Light mystic glvoes", "rate": "1/512"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Aquanite",
+        "drops": [
+            {"item": "Amulet of ranging", "rate": "1/512"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Brine Rat",
+        "drops": [
+            {"item": "Brine sabre", "rate": "1/512"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Dagannoth (Waterbirth Island, ranged)",
+        "drops": [
+            {"item": "Circular hide", "rate": "2/128"},
+            {"item": "Flattened hide", "rate": "2/128"},
+            {"item": "Stretched hide", "rate": "2/128"},
+            {"item": "Spined boots", "rate": "20/256"},
+            {"item": "Spinned gloves", "rate": "20/256"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Cockatrice",
+        "drops": [
+            {"item": "Light mystic boots", "rate": "1/512"},
+            {"item": "Cockatrice head", "rate": "1/1000", "swMaskRate": "1/500"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Ice Strykewyrm",
+        "drops": [
+            {"item": "Staff of light", "rate": "1/1024"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Acheron Mammoth",
+        "drops": [
+            {"item": "Raptor key part 4", "rate": "1/256"},
+            {"item": "Mammoth tusk", "rate": "1/1"}
+        ],
+        "region": "Fremennik"
+    },
+    {
+        "name": "Rune Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/256"},
+            {"item": "Dragon plateskirt", "rate": "1/256"},
+            {"item": "Draconic visage", "rate": "1/512"}
+        ],
+        "region": "Karamja",
+        "note": "Draconic visage can be found in the relevant boss unique logs"
+    },
+    {
+        "name": "Adamant Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/512"},
+            {"item": "Dragon plateskirt", "rate": "1/512"},
+            {"item": "Dragon full helm", "rate": "1/16384"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Steel Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/512"},
+            {"item": "Dragon plateskirt", "rate": "1/512"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Iron Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/1024"},
+            {"item": "Dragon plateskirt", "rate": "1/1024"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Bronze Dragon",
+        "drops": [
+            {"item": "Dragon platelegs", "rate": "1/4096"},
+            {"item": "Dragon plateskirt", "rate": "1/4096"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Mutated Jadinko Male",
+        "drops": [
+            {"item": "Whip vine", "rate": "1/525"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Mutated Jadinko guard",
+        "drops": [
+            {"item": "", "rate": "1/1949", "estimate": true}
+        ],
+        "note": "Whip vine based on wiki estimate, may be 1/2000",
+        "region": "Karamja"
+    },
+    {
+        "name": "TzHaar-Mej",
+        "drops": [
+            {"item": "Toktz-mej-tal", "rate": "1/512"},
+            {"item": "Obsidian cape", "rate": "1/1024"},
+            {"item": "Ring of stone", "rate": "1/5000"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "TzHaar-Xil",
+        "drops": [
+            {"item": "Toktz-xil-ul", "rate": "1/512"},
+            {"item": "Obsidian cape", "rate": "1/256", "estimate": true},
+            {"item": "Toktz-xil-ak", "rate": "1/1024"},
+            {"item": "Toktz-xil-ek", "rate": "1/1024", "estimate": true},
+            {"item": "TzHaar-Ket-Om", "rate": "1/1024", "estimate": true},
+            {"item": "Toktz-ket-xil", "rate": "1/1024", "estimate": true},
+            {"item": "Ring of stone", "rate": "1/5000"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "TzHaar-Ket",
+        "drops": [
+            {"item": "Obsidian cape", "rate": "1/256", "estimate": true},
+            {"item": "TzHaar-Ket-Om", "rate": "1/256", "estimate": true},
+            {"item": "Toktz-ket-xil", "rate": "1/256", "estimate": true},
+            {"item": "Ring of stone", "rate": "1/5000"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "TzHaar-Hur",
+        "drops": [
+            {"item": "Ring of stone", "rate": "1/5000"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Hydrix Dragon",
+        "drops": [
+            {"item": "Gemstone hauberk", "rate": "1/1024"},
+            {"item": "Gemstone boots", "rate": "1/2048"},
+            {"item": "Gemstone gauntlets", "rate": "1/2048"},
+            {"item": "Gemstone helm", "rate": "1/2048"},
+            {"item": "Gemstone greaves", "rate": "1/2048"}
+        ],
+        "region": "Karamja"
+    },
+    {
+        "name": "Tortoise",
+        "alias": ["Warped Tortoise"],
+        "drops": [
+            {"item": "Tortoise shell", "rate": "1/64", "estimate": true},
+            {"item": "Perfect shell", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Mithril Dragon",
+        "drops": [
+            {"item": "Dragon full helm", "rate": "1/32768"},
+            {"item": "Chewed bones", "rate": "3/128"}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Automaton Generator",
+        "drops": [
+            {"item": "Cresbot (unpoked)", "rate": "1/1600"},
+            {"item": "Tracking gloves", "rate": "1/1000"}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Automaton Guardian",
+        "drops": [
+            {"item": "Cresbot (unpoked)", "rate": "1/1600"},
+            {"item": "Static gloves", "rate": "1/1000"}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Automaton Tracer",
+        "drops": [
+            {"item": "Cresbot (unpoked)", "rate": "1/1600"},
+            {"item": "Pneumatic gloves", "rate": "1/1000"}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Dark Beast",
+        "drops": [
+            {"item": "Dark bow", "rate": "1/1024"}
+        ],
+        "region": "Kandarin"
+    },
+    {
+        "name": "Airut",
+        "drops": [
+            {"item": "Razorback gauntlets", "rate": "1/500"},
+            {"item": "Kaigi's journal pages", "rate": "1/64", "estimate": true},
+            {"item": "Tuska mask upper tusks", "rate": "1/250"},
+            {"item": "Tuska mask lower tusks", "rate": "1/250"},
+            {"item": "Tuska mask headpiece", "rate": "1/250"},
+            {"item": "Tuska mask plate", "rate": "1/250"},
+            {"item": "Tuska mask top", "rate": "1/250"}
+        ],
+        "note": "Journal pages includes all pages until the journal is completed (4 pages)",
+        "region": "Kandarin"
+    },
+    {
+        "name": "Desert Strykewyrm",
+        "drops": [
+            {"item": "Focus sight", "rate": "1/512", "estimate": true}
+        ],
+        "region": "Kharidian Desert"
+    },
+    {
+        "name": "Dust Devil",
+        "drops": [
+            {"item": "Dragon chainbody", "rate": "1/32768"}
+        ],
+        "region": "Kharidian Desert"
+    },
+    {
+        "name": "Corrupted Creatures",
+        "drops": [
+            {"item": "Vital spark", "rate": "1/75", "estimate": true},
+            {"item": "Corrupted gem", "rate": "1/5000", "estimate": true},
+            {"item": "Khopesh of the Kharidian", "taskRate": "1/8000", "rate": "1/15000"},
+            {"item": "Key to the Crossing", "rate": "1/400"}
+        ],
+        "region": "Kharidian Desert"
+    },
+    {
+        "name": "Ripper Demon",
+        "drops": [
+            {"item": "Raptor key part 2", "rate": "1/256"},
+            {"item": "Ripper claw", "rate": "1/10000", "taskRate": "1/2000"},
+            {"item": "Off-hand ripper claw", "rate": "1/10000", "taskRate": "1/2000"},
+            {"item": "Parasitic orb", "rate": "1/10000", "taskRate": "1/2000"}
+        ],
+        "region": "Kharidian Desert"
+    },
+    {
+        "name": "Camel Warrior",
+        "drops": [
+            {"item": "Raptor key part 3", "rate": "1/256"},
+            {"item": "Camel staff", "rate": "1/10000", "taskRate": "1/2000"}
+        ],
+        "region": "Kharidian Desert"
+    },
+    {
+        "name": "Cave Horror",
+        "drops": [
+            {"item": "Black mask", "rate": "1/512"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Unspeakable Horror",
+        "drops": [
+            {"item": "Black mask", "rate": "1/512"},
+            {"item": "Scare tactics", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "'Rum'-pumped crab",
+        "drops": [
+            {"item": "Brackish blade", "rate": "1/128", "estimate": true}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Spiritual Mage",
+        "drops": [
+            {"item": "Dragon boots", "rate": "1/128"},
+            {"item": "Dragon gauntlets", "rate": "1/256"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Tormented Demon",
+        "drops": [
+            {"item": "Dragon limbs", "rate": "1/256"},
+            {"item": "Ruined dragon armour lump", "rate": "1/1056"},
+            {"item": "Ruined dragon armour slice", "rate": "1/1056"},
+            {"item": "Ruined dragon armour shard", "rate": "1/1056"},
+            {"item": "Dragon claw", "rate": "1/256"},
+            {"item": "Off-hand dragon claw", "rate": "1/256"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Glacor",
+        "drops": [
+            {"item": "Steadfast boots", "rate": "1/1280"},
+            {"item": "Glaiven boots", "rate": "1/1280"},
+            {"item": "Ragefire boots", "rate": "1/1280"},
+            {"item": "Shards of Armadyl", "rate": "5/48"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Truthful Shadow",
+        "drops": [
+            {"item": "Dark soul", "rate": "1/1000"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Blissful Shadow",
+        "drops": [
+            {"item": "Dark mind", "rate": "1/2000"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Manifest Shadow",
+        "drops": [
+            {"item": "Dark body", "rate": "1/3000"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Aminishi Slayer Monsters",
+        "alias": ["Anagami","Sakadagami","Sotopanna"],
+        "drops": [
+            {"item": "The Path of the Monk", "rate": "1/16"},
+            {"item": "The Path of the Elemental", "rate": "1/32"},
+            {"item": "The Path of the Dragon", "rate": "1/64"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Love Gove Creatures",
+        "drops": [
+            {"item": "Cinderbane gloves", "rate": "1/5000", "taskRate": "1/1500"},
+            {"item": "Ancient elven ritual shard", "rate": "1/5000", "taskRate": "1/1500"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Dinosaurs",
+        "alias": ["Brutish Dinosaur","Feral Dinosaur","Ripper Dinosaur","Venomous Dinosaur"],
+        "drops": [
+            {"item": "Blowpipe fins", "rate": "1/20000", "taskRate": "1/6000"},
+            {"item": "Blowpipe feather", "rate": "1/20000", "taskRate": "1/6000"},
+            {"item": "Bone blowpipe", "rate": "1/20000", "taskRate": "1/6000"},
+            {"item": "Blowpipe chitin", "rate": "1/20000", "taskRate": "1/6000"},
+            {"item": "Laceration boots", "rate": "1/8000", "taskRate": "1/2000"}
+        ],
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Vile Blooms",
+        "alias": ["Liverworts","Luminous Snaggler","Devil's Snare","Lampenflora"],
+        "drops": [
+            {"item": "Blast diffusion boots", "rate": "1/8000", "taskRate": "1/2000"}
+        ],
+        "note": "Lower drop rate for Devil's snare and Lampenflora",
+        "region": "Lost Lands and Dungeons"
+    },
+    {
+        "name": "Lava Strykewyrm",
+        "drops": [
+            {"item": "Wyrm spike", "rate": "1/12288", "taskRate": "1/6168"},
+            {"item": "Wyrm heart", "rate": "1/12288", "taskRate": "1/6168"},
+            {"item": "Wyrm scalp", "rate": "1/12288", "taskRate": "1/6168"}
+        ],
+        "note": "All wilderness uniques below 1/2000, probably"
+    }
+]
