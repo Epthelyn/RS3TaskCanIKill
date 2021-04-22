@@ -195,7 +195,7 @@
         "region": "Morytania"
     },
     {
-        "name": "Grifoloroo",
+        "name": "Grifolaroo",
         "drops": [
             {"item": "Grifolic orb", "rate": "1/64", "estimate": true},
             {"item": "Grifolic gloves", "rate": "1/64", "estimate": true}
