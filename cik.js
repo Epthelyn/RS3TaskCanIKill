@@ -35,6 +35,10 @@ const cik = function(){
         updateDisplay();
     });
 
+    $('#totaldr').on('change', function(){
+        updateDisplay();
+    });
+
     $('#slayertask').on('click', updateDisplay);
     
     parseFraction = (frac) => {
@@ -47,17 +51,28 @@ const cik = function(){
     sumRates = (drops) => {
         let sum = 0;
         let someEstimates = false;
+        let minRate = 0;
         drops.forEach(drop => {
             if(drop.collected) return 0;
             const rateToUse = $('#slayertask').is(':checked')?(drop.taskRate || drop.rate):drop.rate;
             const asDecimal = parseFraction(rateToUse);
+            // console.log(asDecimal);
+            minRate = Math.max(minRate,asDecimal);
             sum += asDecimal;
             if(drop.estimate) someEstimates = true;
+
+
         });
 
         return {
-            value: sum,
-            denom: ~~Math.pow(sum,-1),
+            total: {
+                value: sum,
+                denom: ~~Math.pow(sum,-1)
+            },
+            simple: {
+                value: minRate,
+                denom: ~~Math.pow(minRate,-1)
+            },
             someEstimates: someEstimates
         }
     }
@@ -71,6 +86,12 @@ const cik = function(){
         if(data.length){
             let rates = sumRates(data[0].drops);
 
+            if($('#totaldr').is(':checked')){
+                rates = rates.total;
+            }
+            else{
+                rates = rates.simple;
+            }
             if(rates.denom != 0 && rates.denom < 2000){
                 if(data[0].region == $('#taskregion').val()){
                     $('.outputSummary').addClass('yes');
@@ -112,7 +133,7 @@ const cik = function(){
             h += `<div class="outputItemRow"><u>Click a drop to mark it as collected</u></div>`;
             h += dropsHTML;
             if(data[0].note){
-                h += `<div class="outputItemRow"><br><i>${data[0].note}</i></div>`
+                h += `<div class="outputItemRow"><i>${data[0].note}</i></div>`
             }
             if(rates.someEstimates){
                 h += `<div class="outputItemRow"><i style="color: yellow;">Some item drop rates are estimates based on either the Runemetrics drop log project or Uncommon/Rare/Very Rare wiki information</i></div>`

@@ -70,12 +70,13 @@ body{
 
 .outputSlayerContainer > span > select{
     height: 100%;
-    margin-left: 5px;
+    margin-left: 58px;
 }
 
 .outputItemContainer{
     width: 100%;
     height: auto;
+    font-size: 14px;
 }
 
 .outputItemRow{
