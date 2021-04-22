@@ -325,7 +325,7 @@
     {
         "name": "Rock Slug",
         "drops": [
-            {"item": "Light mystic glvoes", "rate": "1/512"}
+            {"item": "Light mystic gloves", "rate": "1/512"}
         ],
         "region": "Fremennik"
     },
@@ -803,5 +803,31 @@
         ],
         "region": "Other Worlds",
         "note": "Draconic visage can be found in the relevant boss unique logs"
+    },
+    {
+        "name": "Troll",
+        "alias": ["Ice Troll","Troll General"],
+        "drops": [
+            {"item": "Granite shield", "rate": "1/128"}
+        ],
+        "region": "Keldagrim"
+    },
+    {
+        "name": "Chaos Dwarf",
+        "drops": [
+            {"item": "Hand cannon", "rate": "1/132"},
+            {"item": "Hand cannon shot", "rate": "3/132"},
+            {"item": "Dragon Pickaxe", "rate": "1/5000"}
+        ],
+        "region": "Keldagrim"
+    },
+    {
+        "name": "Chaos Giant",
+        "drops": [
+            {"item": "Off-hand dragon throwing axe", "rate": "3/100"},
+            {"item": "Dragon throwing axe", "rate": "3/100"},
+            {"item": "Dragon Pickaxe", "rate": "1/8192"}
+        ],
+        "region": "Keldagrim"
     }
 ]

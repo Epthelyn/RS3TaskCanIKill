@@ -25,6 +25,7 @@ body{
     background: #252F3F;
     display: block;
     color: white;
+    border-radius: 5px;
 }
 
 .outputHeader, .outputSummary, .monsterInput{
@@ -85,6 +86,16 @@ body{
     min-height: 32px;
     line-height: 32px;
     text-align: center;
+    display: block;
+}
+
+.halfrow{
+    width: 50%;
+    float: left;
+}
+
+.itemlastrow{
+    border-bottom: 2px solid rgb(55, 69, 92);
 }
 
 .outputItemRow.collected{

@@ -10,6 +10,14 @@ const cik = function(){
         dataType: 'JSON',
         success: (data) => {
             monsterData = data;
+
+            monsterData.push({
+                name: "Taskpaws",
+                drops: [
+                    {"item": "Bones", "rate": "1/1"}
+                ],
+                region: "Wilderness"
+            });
             
             monsterData.forEach(monster => {
                 monsterList.push(monster.name);
@@ -126,17 +134,23 @@ const cik = function(){
             }
 
             let dropsHTML = data[0].drops.map((drop,index) => {
-                return `<div class="outputItemRow ${drop.collected?`collected`:``}" mIdx="${monsterData.indexOf(data[0])}" dIdx="${index}">${drop.item} - ${$('#slayertask').is(':checked')?(drop.taskRate || drop.rate):drop.rate}</div>`;
-            }).join("");
+                return `<div class="outputItemRow ${index > data[0].drops.length-(data[0].drops.length%2==0?3:2)?`itemlastrow`:``} ${data[0].drops.length>1?`halfrow`:``} ${drop.collected?`collected`:``}" mIdx="${monsterData.indexOf(data[0])}" dIdx="${index}">${drop.item} - ${$('#slayertask').is(':checked')?(drop.taskRate || drop.rate):drop.rate}</div>`;
+            });
+            console.log(dropsHTML);
+            if(dropsHTML.length > 1 && dropsHTML.length%2 != 0){
+                dropsHTML.push(`<div class="outputItemRow halfrow itemlastrow">&nbsp;</div>`);
+            }
+            dropsHTML = dropsHTML.join("");
+            
             // console.log(dropsHTML);
             let h = `<div class="outputItemRow" style="color: ${data[0].region == $('#taskregion').val()?'lime':'red'}">Region: ${data[0].region}</div>`
             h += `<div class="outputItemRow"><u>Click a drop to mark it as collected</u></div>`;
             h += dropsHTML;
             if(data[0].note){
-                h += `<div class="outputItemRow"><i>${data[0].note}</i></div>`
+                h += `<br><div class="outputItemRow topdivider"><i>${data[0].note}</i></div>`
             }
             if(rates.someEstimates){
-                h += `<div class="outputItemRow"><i style="color: yellow;">Some item drop rates are estimates based on either the Runemetrics drop log project or Uncommon/Rare/Very Rare wiki information</i></div>`
+                h += `<br><div class="outputItemRow ${data[0].note?``:`topdivider`}""><i style="color: yellow;">Some item drop rates are estimates based on either the Runemetrics drop log project or Uncommon/Rare/Very Rare wiki information</i></div>`
             }
             $('.outputItemContainer').html(h);
 
@@ -155,7 +169,13 @@ const cik = function(){
             $('.outputSummary').removeClass('yes');
             $('.outputSummary').removeClass('no');
             $('.outputSummary').addClass('maybe');
-            $('.outputSummary').html(`Maybe (no input)`);
+
+            if(val.length){
+                $('.outputSummary').html(`Maybe (no data)`);
+            }
+            else{
+                $('.outputSummary').html(`Maybe (no input)`);
+            }
         }
     }
 }();
