@@ -434,7 +434,7 @@
     {
         "name": "Mutated Jadinko guard",
         "drops": [
-            {"item": "", "rate": "1/1949", "estimate": true}
+            {"item": "Whip vine", "rate": "1/1949", "estimate": true}
         ],
         "note": "Whip vine based on wiki estimate, may be 1/2000",
         "region": "Karamja"
