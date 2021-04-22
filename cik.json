@@ -771,8 +771,8 @@
         "name": "Prifddinas Elves",
         "alias": ["Iorwerth guard","Iorwerth Scout","Cadarn Magus","Cadarn Ranger"],
         "drops": [
-            {"item": "Attuned crystal weapon seeed", "rate": "1/2048"},
-            {"item": "Attuned crystal weapon seeed", "rate": "1/2048"}
+            {"item": "Attuned crystal weapon seed", "rate": "1/2048"},
+            {"item": "Attuned crystal weapon seed", "rate": "1/2048"}
         ],
         "note": "Drop rates for guards may be above 1/2000 threshold",
         "region": "Other Worlds"
