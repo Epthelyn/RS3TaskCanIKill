@@ -227,7 +227,7 @@
             {"item": "Demon slayer boots", "rate": "1/256"},
             {"item": "Demon slayer gloves", "rate": "1/256"},
             {"item": "Demon slayer crossbow", "rate": "1/256"},
-            {"item": "Off-hand demon slayer c'bow", "rate": "1/256"},
+            {"item": "OH demon slayer c'bow", "rate": "1/256"},
             {"item": "Kal'gerion battle comm.", "rate": "1/512"}
         ],
         "region": "Daemonheim"
