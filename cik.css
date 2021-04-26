@@ -183,6 +183,15 @@ select.monsterInputContainer{
     color: rgb(156, 156, 156);
 }
 
+.outputItemRow.collected.inLog{
+    text-decoration: line-through;
+    color: rgb(0, 156, 0);
+}
+
+.outputItemRow.inLog{
+    color: rgb(0, 255, 0);
+}
+
 .creditbox{
     position: absolute;
     left: 0px;

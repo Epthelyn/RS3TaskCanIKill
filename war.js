@@ -151,6 +151,8 @@ const _war = function(){
         {name: "Corrupt Zuriel's robe bottom", inLog: true, collected: false},
     ];
 
+    items = items.sort((a,b) => b.inLog - a.inLog);
+
     $('#wildyelite').on('change', function(){
         calcRevs();
     });
@@ -313,8 +315,9 @@ const _war = function(){
 
     const updateList = () => {
         let listHTML = "";
+        listHTML += `<div class="outputItemRow">Items in green are in the log. Only log items count.</div>`;
         items.forEach((item,index) => {
-            listHTML += `<div class="outputItemRow halfrow ${item.collected?`collected`:``}" itemIdx="${index}">${item.name}</div>`;
+            listHTML += `<div class="outputItemRow halfrow ${item.collected?`collected`:``} ${item.inLog?`inLog`:``}" itemIdx="${index}">${item.name}</div>`;
         });
         $('.outputItemContainer').html(listHTML);
 
