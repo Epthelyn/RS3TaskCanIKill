@@ -693,12 +693,12 @@
             {"item": "Bone blowpipe", "rate": "1/20000", "taskRate": "1/6000"},
             {"item": "Blowpipe chitin", "rate": "1/20000", "taskRate": "1/6000"},
             {"item": "Laceration boots", "rate": "1/8000", "taskRate": "1/2000"},
-            {"item": "Totem of Auras middle", "rate": "1/300"},
-            {"item": "Totem of Summoning middle", "rate": "1/300"},
-            {"item": "Totem of Intimidation middle", "rate": "1/300"},
+            {"item": "Auras middle", "rate": "1/300"},
+            {"item": "Summoning middle", "rate": "1/300"},
+            {"item": "Intimidation middle", "rate": "1/300"},
             {"item": "Dinosaur rib bone", "rate": "1/1000"},
             {"item": "Dinosaur tooth", "rate": "1/800"},
-            {"item": "Brutish dinosaur (unchecked)", "rate": "1/750"}
+            {"item": "Brutish dinosaur", "rate": "1/750"}
         ],
         "region": "Lost Lands and Dungeons"
     },
