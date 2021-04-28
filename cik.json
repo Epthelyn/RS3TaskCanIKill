@@ -227,8 +227,8 @@
             {"item": "Demon slayer boots", "rate": "1/256"},
             {"item": "Demon slayer gloves", "rate": "1/256"},
             {"item": "Demon slayer crossbow", "rate": "1/256"},
-            {"item": "OH demon slayer c'bow", "rate": "1/256"},
-            {"item": "Kal'gerion battle comm.", "rate": "1/512"}
+            {"item": "Off-hand demon slayer crossbow", "rate": "1/256"},
+            {"item": "Kal'gerion battle commendation", "rate": "1/512"}
         ],
         "region": "Daemonheim"
     },
@@ -692,7 +692,13 @@
             {"item": "Blowpipe feather", "rate": "1/20000", "taskRate": "1/6000"},
             {"item": "Bone blowpipe", "rate": "1/20000", "taskRate": "1/6000"},
             {"item": "Blowpipe chitin", "rate": "1/20000", "taskRate": "1/6000"},
-            {"item": "Laceration boots", "rate": "1/8000", "taskRate": "1/2000"}
+            {"item": "Laceration boots", "rate": "1/8000", "taskRate": "1/2000"},
+            {"item": "Totem of Auras middle", "rate": "1/300"},
+            {"item": "Totem of Summoning middle", "rate": "1/300"},
+            {"item": "Totem of Intimidation middle", "rate": "1/300"},
+            {"item": "Dinosaur rib bone", "rate": "1/1000"},
+            {"item": "Dinosaur tooth", "rate": "1/800"},
+            {"item": "Brutish dinosaur (unchecked)", "rate": "1/750"}
         ],
         "region": "Lost Lands and Dungeons"
     },
