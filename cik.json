@@ -235,7 +235,7 @@
     {
         "name": "Seeker",
         "drops": [
-            {"item": "Seeker's charm", "rate": "1/64", "estimate": true}
+            {"item": "Seeker's charm", "rate": "1/7", "estimate": true}
         ],
         "region": "Daemonheim"
     },
