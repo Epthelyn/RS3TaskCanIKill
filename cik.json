@@ -581,7 +581,7 @@
             {"item": "Raptor key part 2", "rate": "1/256"},
             {"item": "Ripper claw", "rate": "1/10000", "taskRate": "1/2000"},
             {"item": "Off-hand ripper claw", "rate": "1/10000", "taskRate": "1/2000"},
-            {"item": "Parasitic orb", "rate": "1/10000", "taskRate": "1/2000"}
+            {"item": "Parasitic orb", "rate": "1/30000"}
         ],
         "region": "Kharidian Desert"
     },
