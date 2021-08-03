@@ -677,7 +677,7 @@
         "region": "Lost Lands and Dungeons"
     },
     {
-        "name": "Love Gove Creatures",
+        "name": "Lost Grove Creatures",
         "drops": [
             {"item": "Cinderbane gloves", "rate": "1/5000", "taskRate": "1/1500"},
             {"item": "Ancient elven ritual shard", "rate": "1/5000", "taskRate": "1/1500"}
