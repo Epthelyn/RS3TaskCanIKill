@@ -1,4 +1,5 @@
 const cik = function(){
+    return;
     let monsterData = [];
     let slayerTask = true;
     let monsterList = [];
