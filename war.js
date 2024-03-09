@@ -1,4 +1,5 @@
 const _war = function(){
+    return false;
     let wildyElite = false;
     let revEnhancer = true;
 
